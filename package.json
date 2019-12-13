@@ -1,0 +1,25 @@
+{
+  "name": "mathswatch",
+  "version": "0.2.0",
+  "description": "vle.mathswatch.co.uk API for Node.JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RowanHall/mathswatch.git"
+  },
+  "keywords": [
+    "mathswatch"
+  ],
+  "author": "Rose Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RowanHall/mathswatch/issues"
+  },
+  "homepage": "https://github.com/RowanHall/mathswatch#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
