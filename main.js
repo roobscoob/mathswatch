@@ -260,4 +260,19 @@ var Account = class extends EventEmitter {
   }
 }
 
-module.exports = {Account, Answer}
+module.exports = {Account, Answer, 'raw': {
+  Answer: AnswerRaw,
+  AssignedWorkList,
+  Assignment,
+  Classroom,
+  ClassroomArray,
+  Drawing,
+  Group,
+  GroupArray,
+  Name,
+  Orginization,
+  Permission,
+  PermissionsArray,
+  Question,
+  QuestionsArray
+}}

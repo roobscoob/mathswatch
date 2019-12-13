@@ -1,6 +1,6 @@
 {
   "name": "mathswatch",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "vle.mathswatch.co.uk API for Node.JS",
   "main": "main.js",
   "scripts": {
