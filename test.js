@@ -19,7 +19,7 @@ rl.on('line', (f) => {
 var CredentialFileString = fs.readFileSync("creds.txt", 'utf-8');
 var [username, password] = CredentialFileString.split("\r\n");
 
-var mw = require('./main.js');
+var mw = require(__dirname + '/main.js');
 global.acc = new mw.Account({username, password})
 var r = Date.now()
 acc.on('ready', () => {

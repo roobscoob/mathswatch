@@ -1,4 +1,4 @@
-const Answer = require('./Answer.js');
+const Answer = require(__dirname + '/Answer.js');
 
 var Question = class {
   constructor(obj, ansobj) {

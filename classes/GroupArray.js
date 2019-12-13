@@ -1,4 +1,4 @@
-const Group = require('./Group.js');
+const Group = require(__dirname + '/Group.js');
 
 var GroupArray = class extends Array {
   constructor(...groupObjects) {

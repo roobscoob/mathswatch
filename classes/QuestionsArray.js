@@ -1,4 +1,4 @@
-const Question = require('./Question.js');
+const Question = require(__dirname + '/Question.js');
 
 var QuestionsArray = class extends Array {
   constructor(answerArray, ...classroomObjects) {

@@ -1,4 +1,4 @@
-const Assignment = require('./Assignment.js');
+const Assignment = require(__dirname + '/Assignment.js');
 
 var AssignedWorkList = class extends Array {
   constructor(onfinished, onerror, cookieJar, ...groupObjects) {

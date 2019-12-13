@@ -1,4 +1,4 @@
-const { Point, Line, Arc } = require('./drawing.js');
+const { Point, Line, Arc } = require(__dirname + '/drawing.js');
 
 var Answer = class {
   constructor(answerFormat, answerSubmitted) {

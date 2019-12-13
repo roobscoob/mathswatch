@@ -1,17 +1,18 @@
 const assert = require('assert');
-const Orginization = require('./Classes/Orginization.js');
-const Classroom = require('./Classes/Classroom.js');
-const ClassroomArray = require('./Classes/ClassroomArray.js');
-const AssignedWorkList = require('./Classes/AssignedWorkList.js');
-const Assignment = require('./Classes/Assignment.js');
-const Group = require('./Classes/Group.js');
-const GroupArray = require('./Classes/GroupArray.js');
-const Name = require('./Classes/Name.js');
-const Permission = require('./Classes/Permission.js');
-const PermissionsArray = require('./Classes/PermissionsArray.js');
-const Question = require('./Classes/Question.js');
-const QuestionsArray = require('./Classes/QuestionsArray.js');
-const AnswerRaw = require('./Classes/Answer.js');
+const Orginization = require(__dirname + '/Classes/Orginization.js');
+const Classroom = require(__dirname + '/Classes/Classroom.js');
+const ClassroomArray = require(__dirname + '/Classes/ClassroomArray.js');
+const AssignedWorkList = require(__dirname + '/Classes/AssignedWorkList.js');
+const Assignment = require(__dirname + '/Classes/Assignment.js');
+const Group = require(__dirname + '/Classes/Group.js');
+const GroupArray = require(__dirname + '/Classes/GroupArray.js');
+const Name = require(__dirname + '/Classes/Name.js');
+const Permission = require(__dirname + '/Classes/Permission.js');
+const PermissionsArray = require(__dirname + '/Classes/PermissionsArray.js');
+const Question = require(__dirname + '/Classes/Question.js');
+const QuestionsArray = require(__dirname + '/Classes/QuestionsArray.js');
+const AnswerRaw = require(__dirname + '/Classes/Answer.js');
+const Drawing = require(__dirname + '/Classes/Drawing.js')
 
 const Answer = class {
   constructor() {}

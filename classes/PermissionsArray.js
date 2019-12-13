@@ -1,4 +1,4 @@
-const Permission = require('./Permission.js');
+const Permission = require(__dirname + '/Permission.js');
 
 var PermissionsArray = class extends Array {
   constructor(...classroomObjects) {

@@ -1,6 +1,6 @@
-const Name = require('./Name.js');
+const Name = require(__dirname + '/Name.js');
 const axios = require('axios');
-const QuestionsArray = require('./QuestionsArray.js');
+const QuestionsArray = require(__dirname + '/QuestionsArray.js');
 
 var Assignment = class {
   constructor(iobj, onfinished) {

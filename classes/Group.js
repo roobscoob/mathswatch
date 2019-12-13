@@ -1,4 +1,4 @@
-const PermissionsArray = require('./PermissionsArray.js');
+const PermissionsArray = require(__dirname + '/PermissionsArray.js');
 
 var Group = class {
   constructor(groupObject) {
