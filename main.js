@@ -157,7 +157,7 @@ var Account = class extends EventEmitter {
     this.id = accountData.id
     this.permissions = new PermissionsArray(...accountData.permissions)
     this.connectedIPs = accountData.remoteAddress
-    this.usernme = accountData.username
+    this.username = accountData.username
     this.year = accountData.year
   }
   _parseOrginizationData(data) {
